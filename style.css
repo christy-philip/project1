@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+}
+
+.navbar-brand img{
+    height: 45px;
+    width: 300px;
+    padding-top: 3px;
+}
+
+.navbar-nav li a{
+    padding: 10 10px !important;
+    margin-left: 15px;
+    color: rgb(255, 37, 139)!important;
+    border-radius: 50px;
+}
+
+
+.navbar-nav li a:hover{
+    float: right;
+    text-align: left;
+    color: rgb(255, 255, 255)!important;
+    transition: 500ms;
+    border-radius: 50px;
+}
+
+.nav-item a:hover{
+    color: rgb(255, 255, 255)!important;
+    /*background-image:linear-gradient(to bottom, #2c76ff, rgb(255, 0, 255))!important;*/
+    background-color: rgb(255, 37, 139);
+    border-radius: 50px;
+}
+
+.navbar{
+    background: rgb(17, 14, 29);    
+}
+
+.navbar-toggler{
+    border: none!important;
+    color: whitesmoke;
+}
+
+.nav-link{
+    color: whitesmoke!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.nav-icon{
+    color: rgb(255, 37, 139)!important;
+    font-size: 25px;
+}
+
+.nav-icon a:hover{
+    color: whitesmoke!important;
+}
+
+/*Main-Image*/
+
+.main_image{
+    background-image: linear-gradient(rgba(17, 14, 29, 0.801),rgba(17, 14, 29, 0.801)), url(./images/fashion1.jpg);
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+    height: 680px;
+    display: flex!important;
+    justify-content: center!important;
+    align-items:flex-end;
+}
+
+.main_image h1{
+    color: rgb(255, 37, 81);
+    padding: 20px;
+    font-size: 50px;
+}
+
+.main_image h2{
+    color: white!important;
+    font-size: 32px;
+}
+
+.main_image p{
+    color: whitesmoke;
+}
+
+.line{
+    background-color: rgb(255, 24, 70);
+    width: 180px;
+    height: 5px;
+    margin: 1px auto;
+    border-radius: 5px;
+}
+
+/*Services*/
+
+.services h3{
+    font-size: 25px;
+}
+
+.services h1{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.line2
+{   
+    background-color: rgb(255, 24, 70);
+    width: 180px;
+    height: 5px;
+    margin: -40px auto;
+    border-radius: 5px;
+
+}    
+
+.iconserv{
+    font-size: 45PX;
+    background: linear-gradient(to bottom left, #122aff 0%,#ff178b 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    padding: 10px;
+    padding-top: 40px;
+}
+
+.services1{
+    padding: 70px
+}
+
+/*--------team members--------*/
+
+.team{
+    background-image: linear-gradient(rgba(17, 14, 29, 0.925),rgba(17,14,29,0.8)), url(./images/texture1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: whitesmoke;
+    padding-top: 50px;
+}
+
+.team h1{
+    display: flex;
+    justify-content: center;
+}
+
+.line3{
+    background-color: rgb(255, 24, 70);
+    width: 140px;
+    height: 5px;
+    margin: 1px auto;
+    border-radius: 5px;
+}
+
+.profile-box h2{
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+.profile-box h4{
+    padding-bottom: 7px;
+}
+
+.team-pic{
+    padding: 70px;
+}
+
+.team-pic img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: solid crimson 4px;
+}
+
+/*---------About Us----------*/
+
+.about{
+    padding-top: 50px;
+}
+
+.about h1{
+    text-align: center;
+}
+
+.line4{
+    background-color: rgb(255, 24, 70);
+    width: 140px;
+    height: 5px;
+    margin: 1px auto;
+    border-radius: 5px;
+}
+
+.about p{
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.aboutbutton button{
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+
+}
+
+.about img{
+    width: 400px;
+    height: 400px;
+    display:flex;
+    justify-content: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+/*---------------------Footer----------------------*/
+
+footer{
+
+}
+
+.containoil {
+    overflow: hidden;
+    color: #627482 !important;
+    background-image: linear-gradient(rgba(17, 14, 29, 0.925),rgba(17,14,29,0.8)), url(./images/texture1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+small {
+    font-size: calc(12px + (15 - 12) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+.bold-text {
+    color: whitesmoke !important
+}
+
+.mt-55 {
+    margin-top: calc(50px + (60 - 50) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+h3 {
+    font-size: 3px;
+}
+
+.social {
+    font-size: 30px !important
+}
+
+.rights {
+    font-size: 32px
+}
+
+.list-unstyled li a{
+    text-decoration: none!important;
+    color: #627482!important;
+}
+
+.list-unstyled li a:hover{
+    text-decoration: none!important;
+    color: rgb(245, 245, 245)!important;
+}
+
